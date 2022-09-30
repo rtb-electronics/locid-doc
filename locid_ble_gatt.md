@@ -10,7 +10,7 @@ The Service-UUID is:
 
         B940D010-F5F8-466E-AFF9-25556B57FE6D
         
-## 3 Service Charakteristics
+## 3 Service Characteristics
 
 | Characteristic             | Ref. | Requirement  |
 |:---------------------------:|:-----:|:--------------------:|
