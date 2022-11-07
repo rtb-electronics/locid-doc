@@ -23,6 +23,7 @@ The Service-UUID is:
 | Latitude                   | [3.7](#37-latitude)  | Optional|
 | Door                       | [3.8](#38-door)  | Optional|
 | Vehicle name               | [3.9](#39-vehicle-name) | Optional |
+| Traffic light request      | [3.10](#310-traffic-light-request) | Optional |
 
 ### 3.1 Version
 
@@ -122,3 +123,14 @@ Reads the door state. Used in public transport vehicles (trains/buses).
 |:-----|:----------|
 | Door is open | 1 |
 | Door is closed | 0 |
+
+### 3.10 Traffic light request
+
+| Name        | Door                                  |
+|:------------|:--------------------------------------------|
+| UUID        | B940<b>D024</b>-F5F8-466E-AFF9-25556B57FE6D |
+| Description | Sends a request to cross the street.                       |
+| Type        | None                                       |
+| Characteristic Properties | Read, Notify |
+
+Sends an assistive pedestrian request to cross the street.
